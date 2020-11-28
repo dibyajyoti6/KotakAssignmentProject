@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Kotak Assignment Suite" duration-ms="252098" started-at="2020-11-27T19:07:31Z" finished-at="2020-11-27T19:11:44Z">
+    <groups>
+    </groups>
+    <test name="Kotak Assignment Test" duration-ms="252098" started-at="2020-11-27T19:07:31Z" finished-at="2020-11-27T19:11:44Z">
+      <class name="com.kotak.testcases.DepositsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9738" started-at="2020-11-28T00:37:31Z" finished-at="2020-11-28T00:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateBrokenImagesTest()[pri:1, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateBrokenImagesTest" duration-ms="10209" started-at="2020-11-28T00:37:41Z" description="Testscript will identify all broken images in Deposit Page" finished-at="2020-11-28T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenImagesTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="987" started-at="2020-11-28T00:37:51Z" finished-at="2020-11-28T00:37:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBrokenImagesTest status=SUCCESS method=DepositsPageTest.validateBrokenImagesTest()[pri:1, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9038" started-at="2020-11-28T00:37:53Z" finished-at="2020-11-28T00:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="25391" started-at="2020-11-28T00:38:03Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:38:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:831)
+	at org.testng.Assert.assertNotEquals(Assert.java:836)
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:77)
+	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountFieldTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="2081" started-at="2020-11-28T00:38:28Z" finished-at="2020-11-28T00:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAmountFieldTest status=FAILURE method=DepositsPageTest.validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9277" started-at="2020-11-28T00:38:30Z" finished-at="2020-11-28T00:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="48343" started-at="2020-11-28T00:38:39Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountFieldTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1442" started-at="2020-11-28T00:39:28Z" finished-at="2020-11-28T00:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAmountFieldTest status=SUCCESS method=DepositsPageTest.validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10782" started-at="2020-11-28T00:39:29Z" finished-at="2020-11-28T00:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="37986" started-at="2020-11-28T00:39:40Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121245.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:831)
+	at org.testng.Assert.assertNotEquals(Assert.java:836)
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:88)
+	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountFieldTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="2592" started-at="2020-11-28T00:40:18Z" finished-at="2020-11-28T00:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAmountFieldTest status=FAILURE method=DepositsPageTest.validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="17043" started-at="2020-11-28T00:40:20Z" finished-at="2020-11-28T00:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="64121" started-at="2020-11-28T00:40:37Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountFieldTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1929" started-at="2020-11-28T00:41:42Z" finished-at="2020-11-28T00:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAmountFieldTest status=SUCCESS method=DepositsPageTest.validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kotak.testcases.DepositsPageTest -->
+    </test> <!-- Kotak Assignment Test -->
+  </suite> <!-- Kotak Assignment Suite -->
+</testng-results>

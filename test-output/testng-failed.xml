@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Kotak Assignment Suite]">
+  <listeners>
+    <listener class-name="com.kotak.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Kotak Assignment Test">
+    <classes>
+      <class name="com.kotak.testcases.DepositsPageTest"/>
+    </classes>
+  </test> <!-- Kotak Assignment Test -->
+  <test name="Kotak Assignment Test(failed)">
+    <classes>
+      <class name="com.kotak.testcases.DepositsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateAmountFieldTest" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- com.kotak.testcases.DepositsPageTest -->
+    </classes>
+  </test> <!-- Kotak Assignment Test(failed) -->
+</suite> <!-- Failed suite [Kotak Assignment Suite] -->

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Kotak_Assignment_Suite">
+              <span class="suite-name border-failed">Kotak Assignment Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Kotak_Assignment_Suite">
+                    <span>C:\Users\gopab\workSapceNew\KotakAssignment\KotakTestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Kotak_Assignment_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Kotak_Assignment_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Kotak_Assignment_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Kotak_Assignment_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Kotak_Assignment_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Kotak_Assignment_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Kotak_Assignment_Suite" class="hide-methods failed suite-Kotak_Assignment_Suite"> (hide)</a> <!-- hide-methods failed suite-Kotak_Assignment_Suite -->
+                      <a href="#" panel-name="suite-Kotak_Assignment_Suite" class="show-methods failed suite-Kotak_Assignment_Suite"> (show)</a> <!-- show-methods failed suite-Kotak_Assignment_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Kotak_Assignment_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Kotak_Assignment_Suite" title="com.kotak.testcases.DepositsPageTest" hash-for-method="validateAmountFieldTest(121245.0)">validateAmountFieldTest(121245.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Kotak_Assignment_Suite" title="com.kotak.testcases.DepositsPageTest" hash-for-method="validateAmountFieldTest(0.0)">validateAmountFieldTest(0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Kotak_Assignment_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Kotak_Assignment_Suite" class="hide-methods passed suite-Kotak_Assignment_Suite"> (hide)</a> <!-- hide-methods passed suite-Kotak_Assignment_Suite -->
+                      <a href="#" panel-name="suite-Kotak_Assignment_Suite" class="show-methods passed suite-Kotak_Assignment_Suite"> (show)</a> <!-- show-methods passed suite-Kotak_Assignment_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Kotak_Assignment_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Kotak_Assignment_Suite" title="com.kotak.testcases.DepositsPageTest" hash-for-method="validateAmountFieldTest(100000.0)">validateAmountFieldTest(100000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Kotak_Assignment_Suite" title="com.kotak.testcases.DepositsPageTest" hash-for-method="validateAmountFieldTest(60000.0)">validateAmountFieldTest(60000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Kotak_Assignment_Suite" title="com.kotak.testcases.DepositsPageTest" hash-for-method="validateBrokenImagesTest">validateBrokenImagesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Kotak_Assignment_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Kotak_Assignment_Suite" class="panel Kotak_Assignment_Suite">
+          <div class="suite-Kotak_Assignment_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kotak.testcases.DepositsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAmountFieldTest(121245.0)">
+                  </a> <!-- validateAmountFieldTest(121245.0) -->
+                  <span class="method-name">validateAmountFieldTest</span>
+                  <span class="parameters">(121245.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:88)
+	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Testscript will validate amount field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAmountFieldTest(0.0)">
+                  </a> <!-- validateAmountFieldTest(0.0) -->
+                  <span class="method-name">validateAmountFieldTest</span>
+                  <span class="parameters">(0.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:77)
+	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Testscript will validate amount field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Kotak_Assignment_Suite-class-failed -->
+          <div class="suite-Kotak_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kotak.testcases.DepositsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAmountFieldTest(100000.0)">
+                  </a> <!-- validateAmountFieldTest(100000.0) -->
+                  <span class="method-name">validateAmountFieldTest</span>
+                  <span class="parameters">(100000.0)</span>
+                  <em>
+(Testscript will validate amount field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAmountFieldTest(60000.0)">
+                  </a> <!-- validateAmountFieldTest(60000.0) -->
+                  <span class="method-name">validateAmountFieldTest</span>
+                  <span class="parameters">(60000.0)</span>
+                  <em>
+(Testscript will validate amount field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBrokenImagesTest">
+                  </a> <!-- validateBrokenImagesTest -->
+                  <span class="method-name">validateBrokenImagesTest</span>
+                  <em>
+(Testscript will identify all broken images in Deposit Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Kotak_Assignment_Suite-class-passed -->
+        </div> <!-- panel Kotak_Assignment_Suite -->
+        <div panel-name="test-xml-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gopab\workSapceNew\KotakAssignment\KotakTestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Kotak Assignment Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.kotak.extentreport.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Kotak Assignment Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kotak.testcases.DepositsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Kotak Assignment Test --&gt;
+&lt;/suite&gt; &lt;!-- Kotak Assignment Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Kotak Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Kotak Assignment Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Kotak Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Kotak Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Kotak_Assignment_Suite');
+function tableData_Kotak_Assignment_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateAmountFieldTest')
+data.setCell(0, 2, 'com.kotak.testcases.DepositsPageTest')
+data.setCell(0, 3, 64121);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateAmountFieldTest')
+data.setCell(1, 2, 'com.kotak.testcases.DepositsPageTest')
+data.setCell(1, 3, 48343);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateAmountFieldTest')
+data.setCell(2, 2, 'com.kotak.testcases.DepositsPageTest')
+data.setCell(2, 3, 37986);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateAmountFieldTest')
+data.setCell(3, 2, 'com.kotak.testcases.DepositsPageTest')
+data.setCell(3, 3, 25391);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateBrokenImagesTest')
+data.setCell(4, 2, 'com.kotak.testcases.DepositsPageTest')
+data.setCell(4, 3, 10209);
+window.suiteTableData['Kotak_Assignment_Suite']= { tableData: data, tableDiv: 'times-div-Kotak_Assignment_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Kotak_Assignment_Suite">
+              </div> <!-- times-div-Kotak_Assignment_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Kotak Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Kotak_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kotak.testcases.DepositsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateBrokenImagesTest</span>
+                <span class="method-start">9738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateBrokenImagesTest status=SUCCESS method=DepositsPageTest.validateBrokenImage...)</span>
+                <span class="method-start">19948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAmountFieldTest(0.0)</span>
+                <span class="method-start">31080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateAmountFieldTest status=FAILURE method=DepositsPageTest.validateAmountFieldT...)</span>
+                <span class="method-start">56475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAmountFieldTest(100000.0)</span>
+                <span class="method-start">67833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateAmountFieldTest status=SUCCESS method=DepositsPageTest.validateAmountFieldT...)</span>
+                <span class="method-start">116178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">117620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAmountFieldTest(121245.0)</span>
+                <span class="method-start">128402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateAmountFieldTest status=FAILURE method=DepositsPageTest.validateAmountFieldT...)</span>
+                <span class="method-start">166390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAmountFieldTest(60000.0)</span>
+                <span class="method-start">186026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateAmountFieldTest status=SUCCESS method=DepositsPageTest.validateAmountFieldT...)</span>
+                <span class="method-start">250149 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
