@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Kotak Assignment Suite" duration-ms="252098" started-at="2020-11-27T19:07:31Z" finished-at="2020-11-27T19:11:44Z">
+  <suite name="Kotak Assignment Suite" duration-ms="239985" started-at="2020-11-28T07:50:33Z" finished-at="2020-11-28T07:54:33Z">
     <groups>
     </groups>
-    <test name="Kotak Assignment Test" duration-ms="252098" started-at="2020-11-27T19:07:31Z" finished-at="2020-11-27T19:11:44Z">
+    <test name="Kotak Assignment Test" duration-ms="239985" started-at="2020-11-28T07:50:33Z" finished-at="2020-11-28T07:54:33Z">
       <class name="com.kotak.testcases.DepositsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9738" started-at="2020-11-28T00:37:31Z" finished-at="2020-11-28T00:37:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="16439" started-at="2020-11-28T13:20:33Z" finished-at="2020-11-28T13:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBrokenImagesTest()[pri:1, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateBrokenImagesTest" duration-ms="10209" started-at="2020-11-28T00:37:41Z" description="Testscript will identify all broken images in Deposit Page" finished-at="2020-11-28T00:37:51Z">
+        <test-method status="PASS" signature="validateBrokenImagesTest()[pri:1, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateBrokenImagesTest" duration-ms="14938" started-at="2020-11-28T13:20:50Z" description="Testscript will identify all broken images in Deposit Page" finished-at="2020-11-28T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokenImagesTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="987" started-at="2020-11-28T00:37:51Z" finished-at="2020-11-28T00:37:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="763" started-at="2020-11-28T13:21:05Z" finished-at="2020-11-28T13:21:05Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9038" started-at="2020-11-28T00:37:53Z" finished-at="2020-11-28T00:38:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10563" started-at="2020-11-28T13:21:09Z" finished-at="2020-11-28T13:21:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="25391" started-at="2020-11-28T00:38:03Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:38:28Z">
+        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="24623" started-at="2020-11-28T13:21:19Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T13:21:44Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.assertNotEquals(Assert.java:831)
 	at org.testng.Assert.assertNotEquals(Assert.java:836)
-	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:77)
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:78)
 	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAmountFieldTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="2081" started-at="2020-11-28T00:38:28Z" finished-at="2020-11-28T00:38:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1550" started-at="2020-11-28T13:21:44Z" finished-at="2020-11-28T13:21:45Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9277" started-at="2020-11-28T00:38:30Z" finished-at="2020-11-28T00:38:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10238" started-at="2020-11-28T13:21:45Z" finished-at="2020-11-28T13:21:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="48343" started-at="2020-11-28T00:38:39Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:39:28Z">
+        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="46261" started-at="2020-11-28T13:21:56Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T13:22:42Z">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAmountFieldTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1442" started-at="2020-11-28T00:39:28Z" finished-at="2020-11-28T00:39:29Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1336" started-at="2020-11-28T13:22:42Z" finished-at="2020-11-28T13:22:43Z">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10782" started-at="2020-11-28T00:39:29Z" finished-at="2020-11-28T00:39:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10189" started-at="2020-11-28T13:22:43Z" finished-at="2020-11-28T13:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="37986" started-at="2020-11-28T00:39:40Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:40:18Z">
+        <test-method status="FAIL" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="35701" started-at="2020-11-28T13:22:53Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T13:23:29Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.assertNotEquals(Assert.java:831)
 	at org.testng.Assert.assertNotEquals(Assert.java:836)
-	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:88)
+	at com.kotak.pages.DepositsPage.amountFieldValidation(DepositsPage.java:89)
 	at com.kotak.testcases.DepositsPageTest.validateAmountFieldTest(DepositsPageTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -169,7 +169,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAmountFieldTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="2592" started-at="2020-11-28T00:40:18Z" finished-at="2020-11-28T00:40:20Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1681" started-at="2020-11-28T13:23:29Z" finished-at="2020-11-28T13:23:31Z">
           <params>
             <param index="0">
               <value>
@@ -180,11 +180,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="17043" started-at="2020-11-28T00:40:20Z" finished-at="2020-11-28T00:40:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="13394" started-at="2020-11-28T13:23:31Z" finished-at="2020-11-28T13:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="64121" started-at="2020-11-28T00:40:37Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T00:41:42Z">
+        <test-method status="PASS" signature="validateAmountFieldTest(java.lang.String)[pri:2, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="validateAmountFieldTest" duration-ms="47647" started-at="2020-11-28T13:23:44Z" description="Testscript will validate amount field" data-provider="amount" finished-at="2020-11-28T13:24:32Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +195,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAmountFieldTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1929" started-at="2020-11-28T00:41:42Z" finished-at="2020-11-28T00:41:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.kotak.testcases.DepositsPageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1412" started-at="2020-11-28T13:24:32Z" finished-at="2020-11-28T13:24:33Z">
           <params>
             <param index="0">
               <value>

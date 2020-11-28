@@ -12,6 +12,7 @@ import com.kotak.pages.DepositsPage;
 import com.kotak.pages.HomePage;
 import com.kotak.util.RetryAnalyzer;
 import com.kotak.util.TestUtil;
+import com.kotak.util.VideoRecorderHelper;
 
 public class HomePageTest extends TestBase {
 	HomePage homePage;
@@ -24,8 +25,10 @@ public class HomePageTest extends TestBase {
 	}
 
 	@Test(priority = 1, retryAnalyzer = RetryAnalyzer.class)
-	public void clickOnDepositsTest() {
+	public void clickOnDepositsTest() throws Exception {
+		VideoRecorderHelper.startRecord("Clicking on fix deposit");
 		depositPage = homePage.clickOnDeposits();
+		VideoRecorderHelper.stopRecord();
 	}
 
 	@AfterMethod

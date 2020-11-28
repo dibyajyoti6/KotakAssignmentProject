@@ -6,7 +6,7 @@
 </listeners>
   <test name="Kotak Assignment Test">
     <classes>
-      <class name="com.kotak.testcases.HomePageTest"/>
+     <!--  <class name="com.kotak.testcases.HomePageTest"/> -->
       <class name="com.kotak.testcases.DepositsPageTest"/>
     </classes>
   </test> <!-- Kotak Assignment Test -->
